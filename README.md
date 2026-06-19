@@ -40,6 +40,20 @@ flowchart TD
     E --> H[(Azure Blob<br/>job cache + saved-quote index)]
     F --> I[Upload to SharePoint]
     G --> I
+
+    classDef source fill:#4A90D9,stroke:#2E6BA8,color:#fff;
+    classDef action fill:#4CAF7D,stroke:#2E8B57,color:#fff;
+    classDef config fill:#E0A030,stroke:#B97E14,color:#fff;
+    classDef engine fill:#9B59E0,stroke:#7333B5,color:#fff;
+    classDef output fill:#1ABC9C,stroke:#138D75,color:#fff;
+    classDef store  fill:#6B7280,stroke:#4B5563,color:#fff;
+
+    class A,I source;
+    class B action;
+    class C,D config;
+    class E engine;
+    class F,G output;
+    class H store;
 ```
 
 ---
