@@ -1,0 +1,45 @@
+# Secrets — NEVER commit
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+
+# Claude Code local settings
+.claude/
+
+# Generated / local data
+output/
+drafts/
+*.xlsx
+*.xlsm
+*.pdf
+
+# Cached SharePoint job/client data — contains client info, keep out of git
+quote_data.json
+quotes.json
+static/quote_data.json
+static/quotes.json
+
+# Brand logo binaries — live in Blob (brand/…), seeded via upload_brand.py
+brand_assets/
+
+# NOTE: screenshots/ is tracked for the README demo images. Only commit
+# DESENSITISED screenshots here — never real client/quote data.
+
+# Local scratch / one-off helper scripts
+_*.py
+
+# OS
+.DS_Store
+Thumbs.db
