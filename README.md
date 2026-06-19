@@ -16,14 +16,11 @@ Service**.
 
 ## Screenshots
 
-> Add your desensitised screenshots to `docs/screenshots/` with the filenames
-> below and they will render here.
+### Job input, rate configuration & manning roster
+![Job input, rate configuration and manning roster](docs/screenshots/01-rate-config.png)
 
-### Rate configuration & live cost calculation
-![Rate configuration and live cost calculation](docs/screenshots/01-rate-config.png)
-
-### Manning roster & pricing summary
-![Manning roster and pricing summary](docs/screenshots/02-roster-pricing.png)
+### Cost allocation & pricing summary
+![Cost allocation and pricing summary](docs/screenshots/02-roster-pricing.png)
 
 ---
 
